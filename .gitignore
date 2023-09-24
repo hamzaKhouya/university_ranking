@@ -2,3 +2,11 @@
 .spyproject/*
 pages/__pycache__/*
 __pycache__/*
+university_ranking/.spyproject/config/codestyle.ini
+university_ranking/.spyproject/config/encoding.ini
+university_ranking/.spyproject/config/vcs.ini
+university_ranking/.spyproject/config/workspace.ini
+university_ranking/.spyproject/config/defaults/defaults-codestyle-0.2.0.ini
+university_ranking/.spyproject/config/defaults/defaults-encoding-0.2.0.ini
+university_ranking/.spyproject/config/defaults/defaults-vcs-0.2.0.ini
+university_ranking/.spyproject/config/defaults/defaults-workspace-0.2.0.ini

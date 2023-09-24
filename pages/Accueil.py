@@ -6,9 +6,9 @@ import dash
 from dash import Dash, html
 import dash_bootstrap_components as dbc
 
-app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-dash.register_page(__name__, path='/', name='Accueil',order=1) 
+dash.register_page(__name__, path='/Accueil', name='Accueil',order=1) 
 
 #%%
 
@@ -30,8 +30,8 @@ layout = html.Div([
                  'background-size': '1500px 1000px',
                  'height':'600px'
                   })
-#%%
+# #%%
 
-if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+# if __name__ == '__main__':
+#     app.run_server(debug=True, use_reloader=False)
 

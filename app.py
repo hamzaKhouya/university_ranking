@@ -20,7 +20,7 @@ navbar = dbc.Navbar(
                     align="center",
                     className="g-0",
                 ),
-                href="/",
+                href="/Accueil",
                 style={"textDecoration": "none"},
             ),
             dbc.Nav(

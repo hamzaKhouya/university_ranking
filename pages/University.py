@@ -12,7 +12,7 @@ import plotly.express as px
 from dash import Dash, dcc, html, Input, Output,callback
 import dash_bootstrap_components as dbc
 
-app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 dash.register_page(__name__, name='Universités', path='/Universites', order=3)
 
 #%%%
@@ -230,5 +230,5 @@ def update_graph(selected_year, selected_region, selected_country, selected_type
                      
 #%%
 
-if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+# if __name__ == '__main__':
+#     app.run_server(debug=True, use_reloader=False)
