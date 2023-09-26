@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 
 #app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-dash.register_page(__name__, path='/Accueil', name='Accueil',order=1) 
+dash.register_page(__name__, path='/', name='Accueil',order=1) 
 
 #%%
 

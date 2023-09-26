@@ -20,13 +20,14 @@ navbar = dbc.Navbar(
                     align="center",
                     className="g-0",
                 ),
-                href="/Accueil",
+                href="/",
                 style={"textDecoration": "none"},
             ),
             dbc.Nav(
                 [
-                  dbc.Col(dbc.NavItem(dbc.NavLink(page["name"], href=page["path"], style={'color': 'white'})))
-                    for page in dash.page_registry.values()
+                  dbc.Col(dbc.NavItem(dbc.NavLink(page["name"], href=page["path"], 
+                                                  style={'color': 'white'})))
+                  for page in dash.page_registry.values()
                 ]),
         
         ]
